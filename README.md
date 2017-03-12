@@ -1,0 +1,2 @@
+# UnicodeEmoji
+Unicode Emoji Library
