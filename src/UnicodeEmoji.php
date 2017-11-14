@@ -3,10 +3,10 @@
 
 class UnicodeEmoji {
 
-	const MODE_AUTO     = 99;
+	// const MODE_AUTO     = 99;
 	const MODE_BINARY   = 1;
 	const MODE_HTML     = 2;
-	const MODE_EMOJIONE = 3; 
+	const MODE_EMOJIONE = 3;
 
 	const EMOJIONE_URL = "//cdn.jsdelivr.net/emojione/assets/png/";
 	const EMOJIONE_VER = "2.2.4";
@@ -54,9 +54,9 @@ class UnicodeEmoji {
 				return $this->getUnicodeHtml($key);
 				break;
 
-			case self::MODE_EMOJIONE:
-				return $this->getUnicodeEmojiOneImage($key);
-				break;
+			// case self::MODE_EMOJIONE:
+			// 	return $this->getUnicodeEmojiOneImage($key);
+			// 	break;
 
 			default:
 				# code...
