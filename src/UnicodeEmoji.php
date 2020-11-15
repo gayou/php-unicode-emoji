@@ -8,9 +8,6 @@ class UnicodeEmoji {
     const MODE_HTML     = 2;
     const MODE_EMOJIONE = 3;
 
-    const EMOJIONE_URL = "//cdn.jsdelivr.net/emojione/assets/png/";
-    const EMOJIONE_VER = "2.2.4";
-
     private $emoji_list ;
 
     public function __construct()
@@ -54,10 +51,6 @@ class UnicodeEmoji {
                 return $this->getUnicodeHtml($key);
                 break;
 
-            // case self::MODE_EMOJIONE:
-            //     return $this->getUnicodeEmojiOneImage($key);
-            //     break;
-
             default:
                 # code...
                 break;
@@ -96,21 +89,6 @@ class UnicodeEmoji {
         $code_point = explode(" ", $this->emoji_list[$key]);
         $code_point = str_replace("U+", "&#x", $code_point);
         return implode("", $code_point);
-    }
-
-
-    /**
-     * 指定されたUnicode絵文字をEmojiONEのimgタグ形式で返却する
-     * 
-     * @param $key  string 絵文字の名称
-     * @return string Unicodeバイナリ
-     */
-    private function getUnicodeEmojiOneImage(string $key)
-    {
-        $code_point = $this->emoji_list[$key];
-        $image_filename = str_replace(array("U+", " "), array("", '-'), $code_point);
-        $image_filename = strtolower($image_filename).".png";
-        return '<img src="'.self::EMOJIONE_URL.$image_filename.'?v='.self::EMOJIONE_VER.'">';
     }
 
 }
