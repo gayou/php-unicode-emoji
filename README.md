@@ -1,2 +1,2 @@
-# UnicodeEmoji
-Unicode Emoji Library
+# php-unicode-emoji
+Unicode Emoji Library for PHP
