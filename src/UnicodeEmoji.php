@@ -36,7 +36,7 @@ class UnicodeEmoji {
      * 指定されたUnicode絵文字を返却する
      * 
      * @param $key  string 絵文字の名称
-     * @param $mode int    返却する絵文字の種類（1:Unicodeバイナリ 2:HTML参照形式 3:EmojiONE PNG）
+     * @param $mode int    返却する絵文字の種類（1:Unicodeバイナリ 2:HTML参照形式）
      */
     public function get(string $key, int $mode = self::MODE_BINARY)
     {
