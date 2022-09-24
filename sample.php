@@ -8,7 +8,8 @@ echo "<pre style='font-size:20px'>";
 foreach ($list as $key => $value) {
 	echo $key." ";
 	echo $emoji->get($key);
-	// echo $emoji->get($key, UnicodeEmoji::MODE_EMOJIONE);
+	echo " / ";
+	echo $emoji->get($key, 2);
 	echo "\n";
 }
 echo "</pre>"

@@ -1,7 +1,7 @@
-# Machine-readable version of the emoji ordering for v13.1 (corresponding to CLDR).
+# Machine-readable version of the emoji ordering for v15.0 (corresponding to CLDR).
 # Note that the skin-tone modifiers are primary-ignorable in the CLDR collation rules.
 # For a listing with the groups and subgroups, and the non-qualified sequences,
-# see https://unicode.org/Public/emoji/13.1/emoji-test.txt
+# see https://unicode.org/Public/emoji/15.0/emoji-test.txt
 U+1F600 ; 1.0 # 😀 grinning face
 U+1F603 ; 0.6 # 😃 grinning face with big eyes
 U+1F604 ; 0.6 # 😄 grinning face with smiling eyes
@@ -12,6 +12,7 @@ U+1F923 ; 3.0 # 🤣 rolling on the floor laughing
 U+1F602 ; 0.6 # 😂 face with tears of joy
 U+1F642 ; 1.0 # 🙂 slightly smiling face
 U+1F643 ; 1.0 # 🙃 upside-down face
+U+1FAE0 ; 14.0 # 🫠 melting face
 U+1F609 ; 0.6 # 😉 winking face
 U+1F60A ; 0.6 # 😊 smiling face with smiling eyes
 U+1F607 ; 1.0 # 😇 smiling face with halo
@@ -30,15 +31,19 @@ U+1F61C ; 0.6 # 😜 winking face with tongue
 U+1F92A ; 5.0 # 🤪 zany face
 U+1F61D ; 0.6 # 😝 squinting face with tongue
 U+1F911 ; 1.0 # 🤑 money-mouth face
-U+1F917 ; 1.0 # 🤗 hugging face
+U+1F917 ; 1.0 # 🤗 smiling face with open hands
 U+1F92D ; 5.0 # 🤭 face with hand over mouth
+U+1FAE2 ; 14.0 # 🫢 face with open eyes and hand over mouth
+U+1FAE3 ; 14.0 # 🫣 face with peeking eye
 U+1F92B ; 5.0 # 🤫 shushing face
 U+1F914 ; 1.0 # 🤔 thinking face
+U+1FAE1 ; 14.0 # 🫡 saluting face
 U+1F910 ; 1.0 # 🤐 zipper-mouth face
 U+1F928 ; 5.0 # 🤨 face with raised eyebrow
 U+1F610 ; 0.7 # 😐 neutral face
 U+1F611 ; 1.0 # 😑 expressionless face
 U+1F636 ; 1.0 # 😶 face without mouth
+U+1FAE5 ; 14.0 # 🫥 dotted line face
 U+1F636 U+200D U+1F32B U+FE0F ; 13.1 # 😶‍🌫️ face in clouds
 U+1F60F ; 0.6 # 😏 smirking face
 U+1F612 ; 0.6 # 😒 unamused face
@@ -46,6 +51,7 @@ U+1F644 ; 1.0 # 🙄 face with rolling eyes
 U+1F62C ; 1.0 # 😬 grimacing face
 U+1F62E U+200D U+1F4A8 ; 13.1 # 😮‍💨 face exhaling
 U+1F925 ; 3.0 # 🤥 lying face
+U+1FAE8 ; 15.0 # 🫨 shaking face
 U+1F60C ; 0.6 # 😌 relieved face
 U+1F614 ; 0.6 # 😔 pensive face
 U+1F62A ; 0.6 # 😪 sleepy face
@@ -60,7 +66,7 @@ U+1F927 ; 3.0 # 🤧 sneezing face
 U+1F975 ; 11.0 # 🥵 hot face
 U+1F976 ; 11.0 # 🥶 cold face
 U+1F974 ; 11.0 # 🥴 woozy face
-U+1F635 ; 0.6 # 😵 knocked-out face
+U+1F635 ; 0.6 # 😵 face with crossed-out eyes
 U+1F635 U+200D U+1F4AB ; 13.1 # 😵‍💫 face with spiral eyes
 U+1F92F ; 5.0 # 🤯 exploding head
 U+1F920 ; 3.0 # 🤠 cowboy hat face
@@ -70,6 +76,7 @@ U+1F60E ; 1.0 # 😎 smiling face with sunglasses
 U+1F913 ; 1.0 # 🤓 nerd face
 U+1F9D0 ; 5.0 # 🧐 face with monocle
 U+1F615 ; 1.0 # 😕 confused face
+U+1FAE4 ; 14.0 # 🫤 face with diagonal mouth
 U+1F61F ; 1.0 # 😟 worried face
 U+1F641 ; 1.0 # 🙁 slightly frowning face
 U+2639 ; 0.7 # ☹ frowning face
@@ -78,6 +85,7 @@ U+1F62F ; 1.0 # 😯 hushed face
 U+1F632 ; 0.6 # 😲 astonished face
 U+1F633 ; 0.6 # 😳 flushed face
 U+1F97A ; 11.0 # 🥺 pleading face
+U+1F979 ; 14.0 # 🥹 face holding back tears
 U+1F626 ; 1.0 # 😦 frowning face with open mouth
 U+1F627 ; 1.0 # 😧 anguished face
 U+1F628 ; 0.6 # 😨 fearful face
@@ -94,7 +102,7 @@ U+1F629 ; 0.6 # 😩 weary face
 U+1F62B ; 0.6 # 😫 tired face
 U+1F971 ; 12.0 # 🥱 yawning face
 U+1F624 ; 0.6 # 😤 face with steam from nose
-U+1F621 ; 0.6 # 😡 pouting face
+U+1F621 ; 0.6 # 😡 enraged face
 U+1F620 ; 0.6 # 😠 angry face
 U+1F92C ; 5.0 # 🤬 face with symbols on mouth
 U+1F608 ; 1.0 # 😈 smiling face with horns
@@ -121,7 +129,6 @@ U+1F63E ; 0.6 # 😾 pouting cat
 U+1F648 ; 0.6 # 🙈 see-no-evil monkey
 U+1F649 ; 0.6 # 🙉 hear-no-evil monkey
 U+1F64A ; 0.6 # 🙊 speak-no-evil monkey
-U+1F48B ; 0.6 # 💋 kiss mark
 U+1F48C ; 0.6 # 💌 love letter
 U+1F498 ; 0.6 # 💘 heart with arrow
 U+1F49D ; 0.6 # 💝 heart with ribbon
@@ -136,14 +143,18 @@ U+1F494 ; 0.6 # 💔 broken heart
 U+2764 U+FE0F U+200D U+1F525 ; 13.1 # ❤️‍🔥 heart on fire
 U+2764 U+FE0F U+200D U+1FA79 ; 13.1 # ❤️‍🩹 mending heart
 U+2764 ; 0.6 # ❤ red heart
+U+1FA77 ; 15.0 # 🩷 pink heart
 U+1F9E1 ; 5.0 # 🧡 orange heart
 U+1F49B ; 0.6 # 💛 yellow heart
 U+1F49A ; 0.6 # 💚 green heart
 U+1F499 ; 0.6 # 💙 blue heart
+U+1FA75 ; 15.0 # 🩵 light blue heart
 U+1F49C ; 0.6 # 💜 purple heart
 U+1F90E ; 12.0 # 🤎 brown heart
 U+1F5A4 ; 3.0 # 🖤 black heart
+U+1FA76 ; 15.0 # 🩶 grey heart
 U+1F90D ; 12.0 # 🤍 white heart
+U+1F48B ; 0.6 # 💋 kiss mark
 U+1F4AF ; 0.6 # 💯 hundred points
 U+1F4A2 ; 0.6 # 💢 anger symbol
 U+1F4A5 ; 0.6 # 💥 collision
@@ -151,13 +162,12 @@ U+1F4AB ; 0.6 # 💫 dizzy
 U+1F4A6 ; 0.6 # 💦 sweat droplets
 U+1F4A8 ; 0.6 # 💨 dashing away
 U+1F573 ; 0.7 # 🕳 hole
-U+1F4A3 ; 0.6 # 💣 bomb
 U+1F4AC ; 0.6 # 💬 speech balloon
 U+1F441 U+FE0F U+200D U+1F5E8 U+FE0F ; 2.0 # 👁️‍🗨️ eye in speech bubble
 U+1F5E8 ; 2.0 # 🗨 left speech bubble
 U+1F5EF ; 0.7 # 🗯 right anger bubble
 U+1F4AD ; 1.0 # 💭 thought balloon
-U+1F4A4 ; 0.6 # 💤 zzz
+U+1F4A4 ; 0.6 # 💤 ZZZ
 U+1F44B ; 0.6 # 👋 waving hand
 U+1F44B U+1F3FB ; 1.0 # 👋🏻 waving hand: light skin tone
 U+1F44B U+1F3FC ; 1.0 # 👋🏼 waving hand: medium-light skin tone
@@ -188,6 +198,42 @@ U+1F596 U+1F3FC ; 1.0 # 🖖🏼 vulcan salute: medium-light skin tone
 U+1F596 U+1F3FD ; 1.0 # 🖖🏽 vulcan salute: medium skin tone
 U+1F596 U+1F3FE ; 1.0 # 🖖🏾 vulcan salute: medium-dark skin tone
 U+1F596 U+1F3FF ; 1.0 # 🖖🏿 vulcan salute: dark skin tone
+U+1FAF1 ; 14.0 # 🫱 rightwards hand
+U+1FAF1 U+1F3FB ; 14.0 # 🫱🏻 rightwards hand: light skin tone
+U+1FAF1 U+1F3FC ; 14.0 # 🫱🏼 rightwards hand: medium-light skin tone
+U+1FAF1 U+1F3FD ; 14.0 # 🫱🏽 rightwards hand: medium skin tone
+U+1FAF1 U+1F3FE ; 14.0 # 🫱🏾 rightwards hand: medium-dark skin tone
+U+1FAF1 U+1F3FF ; 14.0 # 🫱🏿 rightwards hand: dark skin tone
+U+1FAF2 ; 14.0 # 🫲 leftwards hand
+U+1FAF2 U+1F3FB ; 14.0 # 🫲🏻 leftwards hand: light skin tone
+U+1FAF2 U+1F3FC ; 14.0 # 🫲🏼 leftwards hand: medium-light skin tone
+U+1FAF2 U+1F3FD ; 14.0 # 🫲🏽 leftwards hand: medium skin tone
+U+1FAF2 U+1F3FE ; 14.0 # 🫲🏾 leftwards hand: medium-dark skin tone
+U+1FAF2 U+1F3FF ; 14.0 # 🫲🏿 leftwards hand: dark skin tone
+U+1FAF3 ; 14.0 # 🫳 palm down hand
+U+1FAF3 U+1F3FB ; 14.0 # 🫳🏻 palm down hand: light skin tone
+U+1FAF3 U+1F3FC ; 14.0 # 🫳🏼 palm down hand: medium-light skin tone
+U+1FAF3 U+1F3FD ; 14.0 # 🫳🏽 palm down hand: medium skin tone
+U+1FAF3 U+1F3FE ; 14.0 # 🫳🏾 palm down hand: medium-dark skin tone
+U+1FAF3 U+1F3FF ; 14.0 # 🫳🏿 palm down hand: dark skin tone
+U+1FAF4 ; 14.0 # 🫴 palm up hand
+U+1FAF4 U+1F3FB ; 14.0 # 🫴🏻 palm up hand: light skin tone
+U+1FAF4 U+1F3FC ; 14.0 # 🫴🏼 palm up hand: medium-light skin tone
+U+1FAF4 U+1F3FD ; 14.0 # 🫴🏽 palm up hand: medium skin tone
+U+1FAF4 U+1F3FE ; 14.0 # 🫴🏾 palm up hand: medium-dark skin tone
+U+1FAF4 U+1F3FF ; 14.0 # 🫴🏿 palm up hand: dark skin tone
+U+1FAF7 ; 15.0 # 🫷 leftwards pushing hand
+U+1FAF7 U+1F3FB ; 15.0 # 🫷🏻 leftwards pushing hand: light skin tone
+U+1FAF7 U+1F3FC ; 15.0 # 🫷🏼 leftwards pushing hand: medium-light skin tone
+U+1FAF7 U+1F3FD ; 15.0 # 🫷🏽 leftwards pushing hand: medium skin tone
+U+1FAF7 U+1F3FE ; 15.0 # 🫷🏾 leftwards pushing hand: medium-dark skin tone
+U+1FAF7 U+1F3FF ; 15.0 # 🫷🏿 leftwards pushing hand: dark skin tone
+U+1FAF8 ; 15.0 # 🫸 rightwards pushing hand
+U+1FAF8 U+1F3FB ; 15.0 # 🫸🏻 rightwards pushing hand: light skin tone
+U+1FAF8 U+1F3FC ; 15.0 # 🫸🏼 rightwards pushing hand: medium-light skin tone
+U+1FAF8 U+1F3FD ; 15.0 # 🫸🏽 rightwards pushing hand: medium skin tone
+U+1FAF8 U+1F3FE ; 15.0 # 🫸🏾 rightwards pushing hand: medium-dark skin tone
+U+1FAF8 U+1F3FF ; 15.0 # 🫸🏿 rightwards pushing hand: dark skin tone
 U+1F44C ; 0.6 # 👌 OK hand
 U+1F44C U+1F3FB ; 1.0 # 👌🏻 OK hand: light skin tone
 U+1F44C U+1F3FC ; 1.0 # 👌🏼 OK hand: medium-light skin tone
@@ -218,6 +264,12 @@ U+1F91E U+1F3FC ; 3.0 # 🤞🏼 crossed fingers: medium-light skin tone
 U+1F91E U+1F3FD ; 3.0 # 🤞🏽 crossed fingers: medium skin tone
 U+1F91E U+1F3FE ; 3.0 # 🤞🏾 crossed fingers: medium-dark skin tone
 U+1F91E U+1F3FF ; 3.0 # 🤞🏿 crossed fingers: dark skin tone
+U+1FAF0 ; 14.0 # 🫰 hand with index finger and thumb crossed
+U+1FAF0 U+1F3FB ; 14.0 # 🫰🏻 hand with index finger and thumb crossed: light skin tone
+U+1FAF0 U+1F3FC ; 14.0 # 🫰🏼 hand with index finger and thumb crossed: medium-light skin tone
+U+1FAF0 U+1F3FD ; 14.0 # 🫰🏽 hand with index finger and thumb crossed: medium skin tone
+U+1FAF0 U+1F3FE ; 14.0 # 🫰🏾 hand with index finger and thumb crossed: medium-dark skin tone
+U+1FAF0 U+1F3FF ; 14.0 # 🫰🏿 hand with index finger and thumb crossed: dark skin tone
 U+1F91F ; 5.0 # 🤟 love-you gesture
 U+1F91F U+1F3FB ; 5.0 # 🤟🏻 love-you gesture: light skin tone
 U+1F91F U+1F3FC ; 5.0 # 🤟🏼 love-you gesture: medium-light skin tone
@@ -272,6 +324,12 @@ U+261D U+1F3FC ; 1.0 # ☝🏼 index pointing up: medium-light skin tone
 U+261D U+1F3FD ; 1.0 # ☝🏽 index pointing up: medium skin tone
 U+261D U+1F3FE ; 1.0 # ☝🏾 index pointing up: medium-dark skin tone
 U+261D U+1F3FF ; 1.0 # ☝🏿 index pointing up: dark skin tone
+U+1FAF5 ; 14.0 # 🫵 index pointing at the viewer
+U+1FAF5 U+1F3FB ; 14.0 # 🫵🏻 index pointing at the viewer: light skin tone
+U+1FAF5 U+1F3FC ; 14.0 # 🫵🏼 index pointing at the viewer: medium-light skin tone
+U+1FAF5 U+1F3FD ; 14.0 # 🫵🏽 index pointing at the viewer: medium skin tone
+U+1FAF5 U+1F3FE ; 14.0 # 🫵🏾 index pointing at the viewer: medium-dark skin tone
+U+1FAF5 U+1F3FF ; 14.0 # 🫵🏿 index pointing at the viewer: dark skin tone
 U+1F44D ; 0.6 # 👍 thumbs up
 U+1F44D U+1F3FB ; 1.0 # 👍🏻 thumbs up: light skin tone
 U+1F44D U+1F3FC ; 1.0 # 👍🏼 thumbs up: medium-light skin tone
@@ -320,6 +378,12 @@ U+1F64C U+1F3FC ; 1.0 # 🙌🏼 raising hands: medium-light skin tone
 U+1F64C U+1F3FD ; 1.0 # 🙌🏽 raising hands: medium skin tone
 U+1F64C U+1F3FE ; 1.0 # 🙌🏾 raising hands: medium-dark skin tone
 U+1F64C U+1F3FF ; 1.0 # 🙌🏿 raising hands: dark skin tone
+U+1FAF6 ; 14.0 # 🫶 heart hands
+U+1FAF6 U+1F3FB ; 14.0 # 🫶🏻 heart hands: light skin tone
+U+1FAF6 U+1F3FC ; 14.0 # 🫶🏼 heart hands: medium-light skin tone
+U+1FAF6 U+1F3FD ; 14.0 # 🫶🏽 heart hands: medium skin tone
+U+1FAF6 U+1F3FE ; 14.0 # 🫶🏾 heart hands: medium-dark skin tone
+U+1FAF6 U+1F3FF ; 14.0 # 🫶🏿 heart hands: dark skin tone
 U+1F450 ; 0.6 # 👐 open hands
 U+1F450 U+1F3FB ; 1.0 # 👐🏻 open hands: light skin tone
 U+1F450 U+1F3FC ; 1.0 # 👐🏼 open hands: medium-light skin tone
@@ -333,6 +397,31 @@ U+1F932 U+1F3FD ; 5.0 # 🤲🏽 palms up together: medium skin tone
 U+1F932 U+1F3FE ; 5.0 # 🤲🏾 palms up together: medium-dark skin tone
 U+1F932 U+1F3FF ; 5.0 # 🤲🏿 palms up together: dark skin tone
 U+1F91D ; 3.0 # 🤝 handshake
+U+1F91D U+1F3FB ; 14.0 # 🤝🏻 handshake: light skin tone
+U+1F91D U+1F3FC ; 14.0 # 🤝🏼 handshake: medium-light skin tone
+U+1F91D U+1F3FD ; 14.0 # 🤝🏽 handshake: medium skin tone
+U+1F91D U+1F3FE ; 14.0 # 🤝🏾 handshake: medium-dark skin tone
+U+1F91D U+1F3FF ; 14.0 # 🤝🏿 handshake: dark skin tone
+U+1FAF1 U+1F3FB U+200D U+1FAF2 U+1F3FC ; 14.0 # 🫱🏻‍🫲🏼 handshake: light skin tone, medium-light skin tone
+U+1FAF1 U+1F3FB U+200D U+1FAF2 U+1F3FD ; 14.0 # 🫱🏻‍🫲🏽 handshake: light skin tone, medium skin tone
+U+1FAF1 U+1F3FB U+200D U+1FAF2 U+1F3FE ; 14.0 # 🫱🏻‍🫲🏾 handshake: light skin tone, medium-dark skin tone
+U+1FAF1 U+1F3FB U+200D U+1FAF2 U+1F3FF ; 14.0 # 🫱🏻‍🫲🏿 handshake: light skin tone, dark skin tone
+U+1FAF1 U+1F3FC U+200D U+1FAF2 U+1F3FB ; 14.0 # 🫱🏼‍🫲🏻 handshake: medium-light skin tone, light skin tone
+U+1FAF1 U+1F3FC U+200D U+1FAF2 U+1F3FD ; 14.0 # 🫱🏼‍🫲🏽 handshake: medium-light skin tone, medium skin tone
+U+1FAF1 U+1F3FC U+200D U+1FAF2 U+1F3FE ; 14.0 # 🫱🏼‍🫲🏾 handshake: medium-light skin tone, medium-dark skin tone
+U+1FAF1 U+1F3FC U+200D U+1FAF2 U+1F3FF ; 14.0 # 🫱🏼‍🫲🏿 handshake: medium-light skin tone, dark skin tone
+U+1FAF1 U+1F3FD U+200D U+1FAF2 U+1F3FB ; 14.0 # 🫱🏽‍🫲🏻 handshake: medium skin tone, light skin tone
+U+1FAF1 U+1F3FD U+200D U+1FAF2 U+1F3FC ; 14.0 # 🫱🏽‍🫲🏼 handshake: medium skin tone, medium-light skin tone
+U+1FAF1 U+1F3FD U+200D U+1FAF2 U+1F3FE ; 14.0 # 🫱🏽‍🫲🏾 handshake: medium skin tone, medium-dark skin tone
+U+1FAF1 U+1F3FD U+200D U+1FAF2 U+1F3FF ; 14.0 # 🫱🏽‍🫲🏿 handshake: medium skin tone, dark skin tone
+U+1FAF1 U+1F3FE U+200D U+1FAF2 U+1F3FB ; 14.0 # 🫱🏾‍🫲🏻 handshake: medium-dark skin tone, light skin tone
+U+1FAF1 U+1F3FE U+200D U+1FAF2 U+1F3FC ; 14.0 # 🫱🏾‍🫲🏼 handshake: medium-dark skin tone, medium-light skin tone
+U+1FAF1 U+1F3FE U+200D U+1FAF2 U+1F3FD ; 14.0 # 🫱🏾‍🫲🏽 handshake: medium-dark skin tone, medium skin tone
+U+1FAF1 U+1F3FE U+200D U+1FAF2 U+1F3FF ; 14.0 # 🫱🏾‍🫲🏿 handshake: medium-dark skin tone, dark skin tone
+U+1FAF1 U+1F3FF U+200D U+1FAF2 U+1F3FB ; 14.0 # 🫱🏿‍🫲🏻 handshake: dark skin tone, light skin tone
+U+1FAF1 U+1F3FF U+200D U+1FAF2 U+1F3FC ; 14.0 # 🫱🏿‍🫲🏼 handshake: dark skin tone, medium-light skin tone
+U+1FAF1 U+1F3FF U+200D U+1FAF2 U+1F3FD ; 14.0 # 🫱🏿‍🫲🏽 handshake: dark skin tone, medium skin tone
+U+1FAF1 U+1F3FF U+200D U+1FAF2 U+1F3FE ; 14.0 # 🫱🏿‍🫲🏾 handshake: dark skin tone, medium-dark skin tone
 U+1F64F ; 0.6 # 🙏 folded hands
 U+1F64F U+1F3FB ; 1.0 # 🙏🏻 folded hands: light skin tone
 U+1F64F U+1F3FC ; 1.0 # 🙏🏼 folded hands: medium-light skin tone
@@ -404,6 +493,7 @@ U+1F440 ; 0.6 # 👀 eyes
 U+1F441 ; 0.7 # 👁 eye
 U+1F445 ; 0.6 # 👅 tongue
 U+1F444 ; 0.6 # 👄 mouth
+U+1FAE6 ; 14.0 # 🫦 biting lip
 U+1F476 ; 0.6 # 👶 baby
 U+1F476 U+1F3FB ; 1.0 # 👶🏻 baby: light skin tone
 U+1F476 U+1F3FC ; 1.0 # 👶🏼 baby: medium-light skin tone
@@ -1118,6 +1208,12 @@ U+1F477 U+1F3FC U+200D U+2640 U+FE0F ; 4.0 # 👷🏼‍♀️ woman constructio
 U+1F477 U+1F3FD U+200D U+2640 U+FE0F ; 4.0 # 👷🏽‍♀️ woman construction worker: medium skin tone
 U+1F477 U+1F3FE U+200D U+2640 U+FE0F ; 4.0 # 👷🏾‍♀️ woman construction worker: medium-dark skin tone
 U+1F477 U+1F3FF U+200D U+2640 U+FE0F ; 4.0 # 👷🏿‍♀️ woman construction worker: dark skin tone
+U+1FAC5 ; 14.0 # 🫅 person with crown
+U+1FAC5 U+1F3FB ; 14.0 # 🫅🏻 person with crown: light skin tone
+U+1FAC5 U+1F3FC ; 14.0 # 🫅🏼 person with crown: medium-light skin tone
+U+1FAC5 U+1F3FD ; 14.0 # 🫅🏽 person with crown: medium skin tone
+U+1FAC5 U+1F3FE ; 14.0 # 🫅🏾 person with crown: medium-dark skin tone
+U+1FAC5 U+1F3FF ; 14.0 # 🫅🏿 person with crown: dark skin tone
 U+1F934 ; 3.0 # 🤴 prince
 U+1F934 U+1F3FB ; 3.0 # 🤴🏻 prince: light skin tone
 U+1F934 U+1F3FC ; 3.0 # 🤴🏼 prince: medium-light skin tone
@@ -1202,6 +1298,18 @@ U+1F930 U+1F3FC ; 3.0 # 🤰🏼 pregnant woman: medium-light skin tone
 U+1F930 U+1F3FD ; 3.0 # 🤰🏽 pregnant woman: medium skin tone
 U+1F930 U+1F3FE ; 3.0 # 🤰🏾 pregnant woman: medium-dark skin tone
 U+1F930 U+1F3FF ; 3.0 # 🤰🏿 pregnant woman: dark skin tone
+U+1FAC3 ; 14.0 # 🫃 pregnant man
+U+1FAC3 U+1F3FB ; 14.0 # 🫃🏻 pregnant man: light skin tone
+U+1FAC3 U+1F3FC ; 14.0 # 🫃🏼 pregnant man: medium-light skin tone
+U+1FAC3 U+1F3FD ; 14.0 # 🫃🏽 pregnant man: medium skin tone
+U+1FAC3 U+1F3FE ; 14.0 # 🫃🏾 pregnant man: medium-dark skin tone
+U+1FAC3 U+1F3FF ; 14.0 # 🫃🏿 pregnant man: dark skin tone
+U+1FAC4 ; 14.0 # 🫄 pregnant person
+U+1FAC4 U+1F3FB ; 14.0 # 🫄🏻 pregnant person: light skin tone
+U+1FAC4 U+1F3FC ; 14.0 # 🫄🏼 pregnant person: medium-light skin tone
+U+1FAC4 U+1F3FD ; 14.0 # 🫄🏽 pregnant person: medium skin tone
+U+1FAC4 U+1F3FE ; 14.0 # 🫄🏾 pregnant person: medium-dark skin tone
+U+1FAC4 U+1F3FF ; 14.0 # 🫄🏿 pregnant person: dark skin tone
 U+1F931 ; 5.0 # 🤱 breast-feeding
 U+1F931 U+1F3FB ; 5.0 # 🤱🏻 breast-feeding: light skin tone
 U+1F931 U+1F3FC ; 5.0 # 🤱🏼 breast-feeding: medium-light skin tone
@@ -1382,6 +1490,7 @@ U+1F9DE U+200D U+2640 U+FE0F ; 5.0 # 🧞‍♀️ woman genie
 U+1F9DF ; 5.0 # 🧟 zombie
 U+1F9DF U+200D U+2642 U+FE0F ; 5.0 # 🧟‍♂️ man zombie
 U+1F9DF U+200D U+2640 U+FE0F ; 5.0 # 🧟‍♀️ woman zombie
+U+1F9CC ; 14.0 # 🧌 troll
 U+1F486 ; 0.6 # 💆 person getting massage
 U+1F486 U+1F3FB ; 1.0 # 💆🏻 person getting massage: light skin tone
 U+1F486 U+1F3FC ; 1.0 # 💆🏼 person getting massage: medium-light skin tone
@@ -2236,6 +2345,8 @@ U+1F42F ; 0.6 # 🐯 tiger face
 U+1F405 ; 1.0 # 🐅 tiger
 U+1F406 ; 1.0 # 🐆 leopard
 U+1F434 ; 0.6 # 🐴 horse face
+U+1FACE ; 15.0 # 🫎 moose
+U+1FACF ; 15.0 # 🫏 donkey
 U+1F40E ; 0.6 # 🐎 horse
 U+1F984 ; 1.0 # 🦄 unicorn
 U+1F993 ; 5.0 # 🦓 zebra
@@ -2298,6 +2409,9 @@ U+1FAB6 ; 13.0 # 🪶 feather
 U+1F9A9 ; 12.0 # 🦩 flamingo
 U+1F99A ; 11.0 # 🦚 peacock
 U+1F99C ; 11.0 # 🦜 parrot
+U+1FABD ; 15.0 # 🪽 wing
+U+1F426 U+200D U+2B1B ; 15.0 # 🐦‍⬛ black bird
+U+1FABF ; 15.0 # 🪿 goose
 U+1F438 ; 0.6 # 🐸 frog
 U+1F40A ; 1.0 # 🐊 crocodile
 U+1F422 ; 0.6 # 🐢 turtle
@@ -2317,6 +2431,8 @@ U+1F421 ; 0.6 # 🐡 blowfish
 U+1F988 ; 3.0 # 🦈 shark
 U+1F419 ; 0.6 # 🐙 octopus
 U+1F41A ; 0.6 # 🐚 spiral shell
+U+1FAB8 ; 14.0 # 🪸 coral
+U+1FABC ; 15.0 # 🪼 jellyfish
 U+1F40C ; 0.6 # 🐌 snail
 U+1F98B ; 3.0 # 🦋 butterfly
 U+1F41B ; 0.6 # 🐛 bug
@@ -2336,6 +2452,7 @@ U+1F9A0 ; 11.0 # 🦠 microbe
 U+1F490 ; 0.6 # 💐 bouquet
 U+1F338 ; 0.6 # 🌸 cherry blossom
 U+1F4AE ; 0.6 # 💮 white flower
+U+1FAB7 ; 14.0 # 🪷 lotus
 U+1F3F5 ; 0.7 # 🏵 rosette
 U+1F339 ; 0.6 # 🌹 rose
 U+1F940 ; 3.0 # 🥀 wilted flower
@@ -2343,6 +2460,7 @@ U+1F33A ; 0.6 # 🌺 hibiscus
 U+1F33B ; 0.6 # 🌻 sunflower
 U+1F33C ; 0.6 # 🌼 blossom
 U+1F337 ; 0.6 # 🌷 tulip
+U+1FABB ; 15.0 # 🪻 hyacinth
 U+1F331 ; 0.6 # 🌱 seedling
 U+1FAB4 ; 13.0 # 🪴 potted plant
 U+1F332 ; 1.0 # 🌲 evergreen tree
@@ -2356,6 +2474,9 @@ U+1F340 ; 0.6 # 🍀 four leaf clover
 U+1F341 ; 0.6 # 🍁 maple leaf
 U+1F342 ; 0.6 # 🍂 fallen leaf
 U+1F343 ; 0.6 # 🍃 leaf fluttering in wind
+U+1FAB9 ; 14.0 # 🪹 empty nest
+U+1FABA ; 14.0 # 🪺 nest with eggs
+U+1F344 ; 0.6 # 🍄 mushroom
 U+1F347 ; 0.6 # 🍇 grapes
 U+1F348 ; 0.6 # 🍈 melon
 U+1F349 ; 0.6 # 🍉 watermelon
@@ -2387,9 +2508,11 @@ U+1F96C ; 11.0 # 🥬 leafy green
 U+1F966 ; 5.0 # 🥦 broccoli
 U+1F9C4 ; 12.0 # 🧄 garlic
 U+1F9C5 ; 12.0 # 🧅 onion
-U+1F344 ; 0.6 # 🍄 mushroom
 U+1F95C ; 3.0 # 🥜 peanuts
+U+1FAD8 ; 14.0 # 🫘 beans
 U+1F330 ; 0.6 # 🌰 chestnut
+U+1FADA ; 15.0 # 🫚 ginger root
+U+1FADB ; 15.0 # 🫛 pea pod
 U+1F35E ; 0.6 # 🍞 bread
 U+1F950 ; 3.0 # 🥐 croissant
 U+1F956 ; 3.0 # 🥖 baguette bread
@@ -2474,6 +2597,7 @@ U+1F37A ; 0.6 # 🍺 beer mug
 U+1F37B ; 0.6 # 🍻 clinking beer mugs
 U+1F942 ; 3.0 # 🥂 clinking glasses
 U+1F943 ; 3.0 # 🥃 tumbler glass
+U+1FAD7 ; 14.0 # 🫗 pouring liquid
 U+1F964 ; 5.0 # 🥤 cup with straw
 U+1F9CB ; 13.0 # 🧋 bubble tea
 U+1F9C3 ; 12.0 # 🧃 beverage box
@@ -2484,6 +2608,7 @@ U+1F37D ; 0.7 # 🍽 fork and knife with plate
 U+1F374 ; 0.6 # 🍴 fork and knife
 U+1F944 ; 3.0 # 🥄 spoon
 U+1F52A ; 0.6 # 🔪 kitchen knife
+U+1FAD9 ; 14.0 # 🫙 jar
 U+1F3FA ; 1.0 # 🏺 amphora
 U+1F30D ; 0.7 # 🌍 globe showing Europe-Africa
 U+1F30E ; 0.7 # 🌎 globe showing Americas
@@ -2546,6 +2671,7 @@ U+1F307 ; 0.6 # 🌇 sunset
 U+1F309 ; 0.6 # 🌉 bridge at night
 U+2668 ; 0.6 # ♨ hot springs
 U+1F3A0 ; 0.6 # 🎠 carousel horse
+U+1F6DD ; 14.0 # 🛝 playground slide
 U+1F3A1 ; 0.6 # 🎡 ferris wheel
 U+1F3A2 ; 0.6 # 🎢 roller coaster
 U+1F488 ; 0.6 # 💈 barber pole
@@ -2594,12 +2720,14 @@ U+1F6E3 ; 0.7 # 🛣 motorway
 U+1F6E4 ; 0.7 # 🛤 railway track
 U+1F6E2 ; 0.7 # 🛢 oil drum
 U+26FD ; 0.6 # ⛽ fuel pump
+U+1F6DE ; 14.0 # 🛞 wheel
 U+1F6A8 ; 0.6 # 🚨 police car light
 U+1F6A5 ; 0.6 # 🚥 horizontal traffic light
 U+1F6A6 ; 1.0 # 🚦 vertical traffic light
 U+1F6D1 ; 3.0 # 🛑 stop sign
 U+1F6A7 ; 0.6 # 🚧 construction
 U+2693 ; 0.6 # ⚓ anchor
+U+1F6DF ; 14.0 # 🛟 ring buoy
 U+26F5 ; 0.6 # ⛵ sailboat
 U+1F6F6 ; 3.0 # 🛶 canoe
 U+1F6A4 ; 0.6 # 🚤 speedboat
@@ -2757,10 +2885,10 @@ U+1F94C ; 5.0 # 🥌 curling stone
 U+1F3AF ; 0.6 # 🎯 bullseye
 U+1FA80 ; 12.0 # 🪀 yo-yo
 U+1FA81 ; 12.0 # 🪁 kite
+U+1F52B ; 0.6 # 🔫 water pistol
 U+1F3B1 ; 0.6 # 🎱 pool 8 ball
 U+1F52E ; 0.6 # 🔮 crystal ball
 U+1FA84 ; 13.0 # 🪄 magic wand
-U+1F9FF ; 11.0 # 🧿 nazar amulet
 U+1F3AE ; 0.6 # 🎮 video game
 U+1F579 ; 0.7 # 🕹 joystick
 U+1F3B0 ; 0.6 # 🎰 slot machine
@@ -2768,6 +2896,7 @@ U+1F3B2 ; 0.6 # 🎲 game die
 U+1F9E9 ; 11.0 # 🧩 puzzle piece
 U+1F9F8 ; 11.0 # 🧸 teddy bear
 U+1FA85 ; 13.0 # 🪅 piñata
+U+1FAA9 ; 14.0 # 🪩 mirror ball
 U+1FA86 ; 13.0 # 🪆 nesting dolls
 U+2660 ; 0.6 # ♠ spade suit
 U+2665 ; 0.6 # ♥ heart suit
@@ -2804,6 +2933,7 @@ U+1FA72 ; 12.0 # 🩲 briefs
 U+1FA73 ; 12.0 # 🩳 shorts
 U+1F459 ; 0.6 # 👙 bikini
 U+1F45A ; 0.6 # 👚 woman’s clothes
+U+1FAAD ; 15.0 # 🪭 folding hand fan
 U+1F45B ; 0.6 # 👛 purse
 U+1F45C ; 0.6 # 👜 handbag
 U+1F45D ; 0.6 # 👝 clutch bag
@@ -2818,6 +2948,7 @@ U+1F460 ; 0.6 # 👠 high-heeled shoe
 U+1F461 ; 0.6 # 👡 woman’s sandal
 U+1FA70 ; 12.0 # 🩰 ballet shoes
 U+1F462 ; 0.6 # 👢 woman’s boot
+U+1FAAE ; 15.0 # 🪮 hair pick
 U+1F451 ; 0.6 # 👑 crown
 U+1F452 ; 0.6 # 👒 woman’s hat
 U+1F3A9 ; 0.6 # 🎩 top hat
@@ -2856,6 +2987,8 @@ U+1F3BB ; 0.6 # 🎻 violin
 U+1FA95 ; 12.0 # 🪕 banjo
 U+1F941 ; 3.0 # 🥁 drum
 U+1FA98 ; 13.0 # 🪘 long drum
+U+1FA87 ; 15.0 # 🪇 maracas
+U+1FA88 ; 15.0 # 🪈 flute
 U+1F4F1 ; 0.6 # 📱 mobile phone
 U+1F4F2 ; 0.6 # 📲 mobile phone with arrow
 U+260E ; 0.6 # ☎ telephone
@@ -2863,6 +2996,7 @@ U+1F4DE ; 0.6 # 📞 telephone receiver
 U+1F4DF ; 0.6 # 📟 pager
 U+1F4E0 ; 0.6 # 📠 fax machine
 U+1F50B ; 0.6 # 🔋 battery
+U+1FAAB ; 14.0 # 🪫 low battery
 U+1F50C ; 0.6 # 🔌 electric plug
 U+1F4BB ; 0.6 # 💻 laptop
 U+1F5A5 ; 0.7 # 🖥 desktop computer
@@ -2974,7 +3108,7 @@ U+2692 ; 1.0 # ⚒ hammer and pick
 U+1F6E0 ; 0.7 # 🛠 hammer and wrench
 U+1F5E1 ; 0.7 # 🗡 dagger
 U+2694 ; 1.0 # ⚔ crossed swords
-U+1F52B ; 0.6 # 🔫 water pistol
+U+1F4A3 ; 0.6 # 💣 bomb
 U+1FA83 ; 13.0 # 🪃 boomerang
 U+1F3F9 ; 1.0 # 🏹 bow and arrow
 U+1F6E1 ; 0.7 # 🛡 shield
@@ -3003,7 +3137,9 @@ U+1F489 ; 0.6 # 💉 syringe
 U+1FA78 ; 12.0 # 🩸 drop of blood
 U+1F48A ; 0.6 # 💊 pill
 U+1FA79 ; 12.0 # 🩹 adhesive bandage
+U+1FA7C ; 14.0 # 🩼 crutch
 U+1FA7A ; 12.0 # 🩺 stethoscope
+U+1FA7B ; 14.0 # 🩻 x-ray
 U+1F6AA ; 0.6 # 🚪 door
 U+1F6D7 ; 13.0 # 🛗 elevator
 U+1FA9E ; 13.0 # 🪞 mirror
@@ -3024,6 +3160,7 @@ U+1F9FA ; 11.0 # 🧺 basket
 U+1F9FB ; 11.0 # 🧻 roll of paper
 U+1FAA3 ; 13.0 # 🪣 bucket
 U+1F9FC ; 11.0 # 🧼 soap
+U+1FAE7 ; 14.0 # 🫧 bubbles
 U+1FAA5 ; 13.0 # 🪥 toothbrush
 U+1F9FD ; 11.0 # 🧽 sponge
 U+1F9EF ; 11.0 # 🧯 fire extinguisher
@@ -3032,8 +3169,11 @@ U+1F6AC ; 0.6 # 🚬 cigarette
 U+26B0 ; 1.0 # ⚰ coffin
 U+1FAA6 ; 13.0 # 🪦 headstone
 U+26B1 ; 1.0 # ⚱ funeral urn
+U+1F9FF ; 11.0 # 🧿 nazar amulet
+U+1FAAC ; 14.0 # 🪬 hamsa
 U+1F5FF ; 0.6 # 🗿 moai
 U+1FAA7 ; 13.0 # 🪧 placard
+U+1FAAA ; 14.0 # 🪪 identification card
 U+1F3E7 ; 0.6 # 🏧 ATM sign
 U+1F6AE ; 1.0 # 🚮 litter in bin sign
 U+1F6B0 ; 1.0 # 🚰 potable water
@@ -3093,6 +3233,7 @@ U+262A ; 0.7 # ☪ star and crescent
 U+262E ; 1.0 # ☮ peace symbol
 U+1F54E ; 1.0 # 🕎 menorah
 U+1F52F ; 0.6 # 🔯 dotted six-pointed star
+U+1FAAF ; 15.0 # 🪯 khanda
 U+2648 ; 0.6 # ♈ Aries
 U+2649 ; 0.6 # ♉ Taurus
 U+264A ; 0.6 # ♊ Gemini
@@ -3128,6 +3269,7 @@ U+1F3A6 ; 0.6 # 🎦 cinema
 U+1F505 ; 1.0 # 🔅 dim button
 U+1F506 ; 1.0 # 🔆 bright button
 U+1F4F6 ; 0.6 # 📶 antenna bars
+U+1F6DC ; 15.0 # 🛜 wireless
 U+1F4F3 ; 0.6 # 📳 vibration mode
 U+1F4F4 ; 0.6 # 📴 mobile phone off
 U+2640 ; 4.0 # ♀ female sign
@@ -3137,6 +3279,7 @@ U+2716 ; 0.6 # ✖ multiply
 U+2795 ; 0.6 # ➕ plus
 U+2796 ; 0.6 # ➖ minus
 U+2797 ; 0.6 # ➗ divide
+U+1F7F0 ; 14.0 # 🟰 heavy equals sign
 U+267E ; 11.0 # ♾ infinity
 U+203C ; 0.6 # ‼ double exclamation mark
 U+2049 ; 0.6 # ⁉ exclamation question mark
